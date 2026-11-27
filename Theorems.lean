@@ -2,3 +2,4 @@
 import Theorems.BinomialTheorem.A
 import Theorems.BinomialTheorem.B
 import Theorems.BinomialTheorem.Equiv
+import Theorems.BinomialTheorem.Proof

@@ -1,0 +1,14 @@
+{
+  "slug": "BinomialTheorem",
+  "issue": "TuriMath/binomial-theorem#1",
+  "tier": 1,
+  "source": "Wikipedia, Binomial theorem, Statement; Freek 100 #44",
+  "statement_provenance": "blind-double",
+  "verdict": "proved",
+  "attempts": {"formalize_rounds": 1, "equiv": 1, "prove": 1},
+  "mathlib_lemmas": ["Nat.choose_succ_succ", "Nat.choose_succ_self", "Finset.sum_range_succ", "Finset.sum_range_succ'", "Finset.mul_sum", "Finset.sum_add_distrib", "Finset.sum_congr"],
+  "calibration": true,
+  "toolchain": "leanprover/lean4:v4.36.0",
+  "mathlib_rev": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proved by induction with Pascal's rule, not by citing add_pow. Hardest part: index shifting with sum_range_succ' and truncated subtraction n+1-k."
+}

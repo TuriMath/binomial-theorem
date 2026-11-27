@@ -1,1 +1,4 @@
 # sha256  path. Statements locked after their A<->B PR merged. Lines are only ever added (scripts/gate.py, check 6).
+d3c62e82b46644379d72290f52d8f1e346cdd02bea50c27b159d108eeb21d49b  Theorems/BinomialTheorem/A.lean
+0f1192d01c10ea83cb71e233049336c78c5ef3e2ff3ecc4b9324fb4bd65e54fe  Theorems/BinomialTheorem/B.lean
+4e3df234fc4fe3f9131522bc8e43dd8edebfa2c85bc2c7101b387b71f6157591  Theorems/BinomialTheorem/Equiv.lean
